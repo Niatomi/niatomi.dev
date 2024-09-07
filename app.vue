@@ -8,5 +8,6 @@
 p {
   color: $accent_color;
   padding: $padding;
+  background: red;
 }
 </style>

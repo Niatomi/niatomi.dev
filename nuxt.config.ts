@@ -4,8 +4,13 @@ import { resolve } from 'path'
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   alias: {
-    "@": resolve(__dirname, "/")
+    "@": resolve(__dirname, "/"),
+    "@im@": resolve(__dirname, '/assets/images')
   },
+  css: [
+    "~/assets/styles/reset.css",
+    "~/assets/styles/generic.css",
+  ],
   vite: {
     css: {
       preprocessorOptions: {
