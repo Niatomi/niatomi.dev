@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   css: [
     "~/assets/styles/reset.css",
-    "~/assets/styles/generic.css",
+    "~/assets/styles/main.css",
   ],
   vite: {
     css: {
@@ -20,5 +20,8 @@ export default defineNuxtConfig({
       }
     }
   },
-  devtools: { enabled: true }
+  modules: [
+    '@vueuse/nuxt',
+  ],
+  devtools: { enabled: false }
 })

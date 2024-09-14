@@ -1,13 +1,8 @@
 <template>
-  <div>
-    <p>Hello</p>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <style lang="scss" scoped>
-p {
-  color: $accent_color;
-  padding: $padding;
-  background: red;
-}
 </style>

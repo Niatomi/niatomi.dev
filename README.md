@@ -1,3 +1,7 @@
+# Design doc
+
+https://www.figma.com/design/oWTHGgKvBiJzZ8et5HiAZY/Untitled?node-id=1-6&t=3eActoittzsxC5B1-1
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
